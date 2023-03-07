@@ -1,0 +1,166 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Horizontal Line */
+
+hr {
+    margin:6% auto;
+    border-color: rgb(186, 186, 186);
+    width:60px;
+    border-width: 8px;
+    border-style: dotted;
+    border-top: 20px;
+}
+
+/* Navbar */
+
+.main_nav {
+    padding:1% 4%;
+}
+
+.nav_name {
+    font-size:25px;
+    font-weight:bold;
+    margin:0 60px 0 0;
+}
+
+/* Head Section */
+
+.head-section {
+    padding:3%;
+    margin:auto;
+    text-align: center;
+    line-height:1.5;
+}
+
+.p1 {
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.head-section h1 {
+    color:rgb(109, 108, 108);
+    width:50%;
+    margin:auto;
+    font-weight:600;
+}
+
+.head-section img {
+    margin-top:6%;
+    margin-bottom:0;
+}
+
+/* Product Section */
+
+.product-section {
+    background-color: rgb(241, 241, 241);
+    padding:2% 0;
+}
+
+.product-section h1,
+.pricing-section h1,
+.contact-us h1 {
+    color:rgb(109, 108, 108);
+    margin:auto;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.products {
+    padding:6% 13%;
+    text-align: center;
+}
+
+.product_img_card {
+    box-shadow: 0 0 10px black;
+}
+
+.product_img_card h5 {
+    font-weight: 600;
+}
+
+.product_img img {
+    height:300px;
+}
+
+.shop-link {
+    text-decoration:none;
+    color:black;
+}
+.shop-link:hover {
+    color: white;
+}
+
+/* Review Section */
+
+.review-section {
+    padding:0 13%;
+}
+
+.review-section h1 {
+    color:rgb(109, 108, 108);
+    margin:7% auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.review-section h5 {
+    color:white;
+    font-weight:600;
+}
+.review-section p {
+    color:white;
+    font-weight:600;
+}
+
+.rating {
+    box-shadow: 0 0 10px black;
+}
+
+/* Pricing Section */
+
+.pricing-section {
+    font-family: 'Montserrat', sans-serif;
+    padding:0 13% 4%;
+    background-color: rgb(241, 241, 241);
+}
+
+.pricing-cards {
+    box-shadow: 0 0 8px black;
+}
+
+/* Contact Us Section */
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-us p {
+    margin: 1% auto 3%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.contact-us a{
+    text-decoration: none;
+    margin:2% 2%;
+}
+
+.contact-us a:hover {
+    opacity:0.5;
+}
+
+/* Page Footer */
+
+.page-foot {
+    background-color: rgb(241, 241, 241);
+    padding:2% 0;
+    margin:auto;
+}
+
+.sub-text-label p {
+    font-weight: 600;
+}
